@@ -6,7 +6,7 @@ import Lenis from "@studio-freight/lenis";
 
 
 import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 import Mainroutes from "./routes/MainRoute";
 import ClickSpark from "./components/Sparc";
