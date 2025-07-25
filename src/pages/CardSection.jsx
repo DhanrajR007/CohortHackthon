@@ -66,7 +66,7 @@ const CardScrollComponent = () => {
 
   return (
     
-    <section className="sticky-cards bg-zinc-200 h-screen relative overflow-hidden">
+    <section className="sticky-cards bg-white h-screen relative overflow-hidden">
       {/* BIG WORK TEXT */}
       <main className="absolute top-0 left-1/2 -translate-x-1/2  z-0 text-9xl md:text-[200px] text-zinc-950 font-bold pointer-events-none select-none">
         WORK

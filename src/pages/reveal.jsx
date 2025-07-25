@@ -84,15 +84,16 @@ const Home = () => {
           className="f-hero h-screen flex flex-col justify-center items-center w-full bg-[url(https://www.tarunkhiwal.com/images/project-gallery/2-22Mar2024093847-large-24Feb2025124728-medium.jpg)] bg-cover bg-center px-4 text-center md:text-left"
           ref={textRef}
         >
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl tracking-tight leading-none text-white">
-            <span className="font-serif italic">Rooted</span> in care,
-          </h1>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl tracking-tight leading-none text-white">
-            grown with <span className="font-serif italic">kindness</span>
-          </h1>
-          <p className="text-base sm:text-lg font-thin uppercase text-white mt-3 px-4 sm:px-0">
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-          </p>
+         <h1 className="lg:mt-25 text-4xl sm:text-5xl md:text-7xl lg:text-8xl tracking-tight leading-none text-black">
+  <span className="font-serif italic">Framed</span> with vision,
+</h1>
+<h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl tracking-tight leading-none text-black">
+  told with <span className="font-serif italic">soul</span>
+</h1>
+<p className="text-base sm:text-lg font-thin uppercase text-black mt-3 px-4 sm:px-0">
+  A visual storyteller capturing legacy, art, and emotion.
+</p>
+
           <button className="mt-10 sm:mt-20 bg-white text-black text-lg sm:text-xl font-thin px-6 sm:px-10 py-2 rounded">
             <Link to={"/work"}>View All Work</Link>
           </button>
